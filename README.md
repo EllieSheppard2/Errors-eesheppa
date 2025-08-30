@@ -20,10 +20,10 @@ For this project, you have been given a very broken program and it is your job t
 ## Logging Errors
 Every time you fix a bug, log it in the README file here:
 
-| Type of error (compiler, runtime, logic) | File | Description | Fix |
-|--------------------------------------- | ---- | ----------- | --- |
-| Example: compiler | CMakeLists.txt | "project PROJECT called with incorrect number of arguments" | Added the project name to line 2 |
-| syntax | spie.cpp | constructor syntax SPIE_Game() { | prefixed constructor |
+| Type of error (compiler, runtime, logic) | File           | Description                                                 | Fix                              |
+|------------------------------------------|----------------|-------------------------------------------------------------|----------------------------------|
+| Example: compiler                        | CMakeLists.txt | "project PROJECT called with incorrect number of arguments" | Added the project name to line 2 |
+| compiler                                 | spie.cpp       | constructor syntax SPIE_Game() {                            | prefixed constructor             |
 
 
 
