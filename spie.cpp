@@ -2,7 +2,7 @@
 #include <time.h>
 using namespace std;
 
-SPIE_Game() {
+SPIE_Game::SPIE_Game() {
     srand(time(NULL));
     winning_numbers.clear();
     add_winning_number();
