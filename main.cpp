@@ -47,6 +47,7 @@ int main() {
 
     if (score == 0) {
         cout << "You lost the game!" << endl;
+    }
     else {
         cout << "Play again soon!" << endl;
     }

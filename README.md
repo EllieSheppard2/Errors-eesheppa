@@ -20,13 +20,13 @@ For this project, you have been given a very broken program and it is your job t
 ## Logging Errors
 Every time you fix a bug, log it in the README file here:
 
-| Type of error (compiler, runtime, logic) | File           | Description                                                 | Fix                             |
-|------------------------------------------|----------------|-------------------------------------------------------------|---------------------------------|
-| Example: compiler                        | CMakeLists.txt | "project PROJECT called with incorrect number of arguments" | Added the project name to line 2 |
-| compiler                                 | spie.cpp       | constructor syntax SPIE_Game() {                            | prefixed constructor            |
-| compiler                                 | main.cpp       | incorrect construction of game                              | added/removed parentheses       |
+| Type of error (compiler, runtime, logic) | File           | Description                                                 | Fix                                                                   |
+|------------------------------------------|----------------|-------------------------------------------------------------|-----------------------------------------------------------------------|
+| Example: compiler                        | CMakeLists.txt | "project PROJECT called with incorrect number of arguments" | Added the project name to line 2                                      |
+| compiler                                 | spie.cpp       | constructor syntax SPIE_Game() {                            | prefixed constructor                                                  |
+| compiler                                 | main.cpp       | incorrect construction of game                              | added/removed parentheses                                             |
 | logic                                    | main.cpp       | missing break in switch statement                           | added break statment, moved some code onto seperate lines for clarity | 
-|                                          |                |                                                             |                                                                       |
+| compiler                                 | main.cpp       | missing brace in if (score==0){ ...                         | added closing brace                                                   |
 
 
 
