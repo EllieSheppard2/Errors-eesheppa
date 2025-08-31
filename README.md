@@ -25,8 +25,8 @@ Every time you fix a bug, log it in the README file here:
 | Example: compiler                        | CMakeLists.txt | "project PROJECT called with incorrect number of arguments" | Added the project name to line 2 |
 | compiler                                 | spie.cpp       | constructor syntax SPIE_Game() {                            | prefixed constructor            |
 | compiler                                 | main.cpp       | incorrect construction of game                              | added/removed parentheses       |
-|                                          |                |                                                             |                              
-
+| logic                                    | main.cpp       | missing break in switch statement                           | added break statment, moved some code onto seperate lines for clarity | 
+|                                          |                |                                                             |                                                                       |
 
 
 

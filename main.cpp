@@ -13,11 +13,14 @@ int main() {
         choice = game.get_player_choice(cout, cin);
 
         switch(choice)
-            case 's': game.scramble(cout);
+            case 's':
+              game.scramble(cout);
                 break;
-            case 'i': game.print_rules(cout);
+            case 'i':
+              game.print_rules(cout);
                 break;
-            case 'p': cout << "Your score is " << score << endl;
+            case 'p':
+              cout << "Your score is " << score << endl;
                 game.print_winning_numbers(cout);
                 int dice_roll = game.roll_dice();
                 cout << "Your dice roll is: " << dice_roll << endl;
@@ -29,7 +32,8 @@ int main() {
                 if (game.matches_winning_number(dice_roll)) {
                     cout << "You won this round!" << endl;
                     score += 5;
-                } else {
+                }
+                else {
                     cout << "You lost this round!" << endl;
                     --score;
                     if (score == 0) {
@@ -37,6 +41,7 @@ int main() {
                     }
                 }
                 cout << "Your new score is " << score << endl;
+                break;
         }
     }
 
