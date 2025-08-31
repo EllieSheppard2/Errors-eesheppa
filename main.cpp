@@ -2,9 +2,9 @@
 using namespace std;
 
 int main() {
-    SPIE_Game game();
+    SPIE_Game game;
     game.print_rules(cout);
-    game.print_winning_numbers;
+    game.print_winning_numbers(cout);
 
     int score = 5;
     char choice = 'p';
