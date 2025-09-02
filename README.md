@@ -27,6 +27,7 @@ Every time you fix a bug, log it in the README file here:
 | compiler                                 | main.cpp       | incorrect construction of game                              | added/removed parentheses                                             |
 | logic                                    | main.cpp       | missing break in switch statement                           | added break statment, moved some code onto seperate lines for clarity | 
 | compiler                                 | main.cpp       | missing brace in if (score==0){ ...                         | added closing brace                                                   |
+| compiler                                 | spie.h         | missing std::                                               | added std:: in front of vecotr, ostream, instream                     |
 
 
 
