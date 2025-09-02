@@ -29,6 +29,7 @@ Every time you fix a bug, log it in the README file here:
 | compiler                                 | main.cpp       | missing brace in if (score==0){ ...                         | added closing brace                                                   |
 | compiler                                 | spie.h         | missing std::                                               | added std:: in front of vecotr, ostream, instream                     |
 | compiler                                 | spie.cpp       | missing return statement in get player choice               | added return choice                                                   |
+| compiler                                 | main.cpp       | missing {} around switch / case blocks                      | added {} around switch / case blocks                                  |
 
 
 
