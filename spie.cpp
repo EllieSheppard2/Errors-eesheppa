@@ -183,11 +183,17 @@ void SPIE_Game::scramble(ostream &outs) {
 
     int replacements = 0;
     for (int w = 0; w < winning_numbers.size(); ++w) {
+        bool matching = false;
         for (int r = 0; r < dice_rolls.size(); ++r) {
             if (dice_rolls[r] == winning_numbers[w]) {
                 winning_numbers.erase(winning_numbers.begin() + w);
                 ++replacements;
+                matching = true;
+                break;
             }
+        }
+        if (!matching) {
+            w++;
         }
     }
 
