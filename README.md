@@ -30,6 +30,7 @@ Every time you fix a bug, log it in the README file here:
 | compiler                                 | spie.h         | missing std::                                               | added std:: in front of vecotr, ostream, instream                     |
 | compiler                                 | spie.cpp       | missing return statement in get player choice               | added return choice                                                   |
 | compiler                                 | main.cpp       | missing {} around switch / case blocks                      | added {} around switch / case blocks                                  |
+| compiler                                 | main.cpp       | missing ; on return statement at end of file                | added ; to return                                                     |
 
 
 

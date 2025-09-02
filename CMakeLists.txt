@@ -6,4 +6,6 @@ set(CMAKE_CXX_STANDARD 14)
 add_executable(Errors
         spie.cpp
         main.cpp
+        spie.h
+        spie.h
         spie.h)

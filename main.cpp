@@ -45,7 +45,6 @@ int main() {
             break;
         }
     }
-    }
 
     if (score == 0) {
         cout << "You lost the game!" << endl;
@@ -54,5 +53,5 @@ int main() {
         cout << "Play again soon!" << endl;
     }
 
-    return 0
+    return 0;
 }
