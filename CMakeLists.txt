@@ -7,5 +7,4 @@ add_executable(Errors
         spie.cpp
         main.cpp
         spie.h
-        spie.h
-        spie.h)
+        )
