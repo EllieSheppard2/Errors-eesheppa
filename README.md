@@ -36,6 +36,7 @@ Every time you fix a bug, log it in the README file here:
 | logic                                    | spie.cpp       | while choice != s ... does not evaluate to "while choice is not s, p, i or e        | changed to using "choice != && choice!="                              |                                                                       |
 | logic                                    | spie.cpp       | add_winning_numbers never actually adds a number, so it doesnt display when playing | added "winning_numbers.push_back(new_number);"                        |
 | logic                                    | spie.cpp       | when rolling for example 6 if a winning number is 6, scramble does not replace      | changed around logic, w is no longer declared twice                   |
+| logic                                    | spie.cpp       | rolling does not give a valid range for two die (0-10 not 2-12)                     | added + 1 to return (rand() % 6)                                      |
 
 
 

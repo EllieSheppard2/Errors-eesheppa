@@ -72,7 +72,7 @@ void SPIE_Game::print_winning_numbers(ostream &outs) const {
 }
 
 int SPIE_Game::roll_dice() {
-    return (rand() % 6) + (rand() % 6);
+    return (rand() % 6 + 1) + (rand() % 6 + 1);
 }
 
 void SPIE_Game::scramble(ostream &outs) {
