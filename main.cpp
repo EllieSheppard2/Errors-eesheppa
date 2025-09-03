@@ -40,9 +40,10 @@ int main() {
                         choice = 'e';
                     }
                 }
+                cout << "Your new score is " << score << endl;
+                break;
             }
-            cout << "Your new score is " << score << endl;
-            break;
+
         }
     }
 
