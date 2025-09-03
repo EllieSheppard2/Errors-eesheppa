@@ -20,21 +20,21 @@ For this project, you have been given a very broken program and it is your job t
 ## Logging Errors
 Every time you fix a bug, log it in the README file here:
 
-| Type of error (compiler, runtime, logic) | File           | Description                                                                  | Fix                                                                   |
-|------------------------------------------|----------------|------------------------------------------------------------------------------|-----------------------------------------------------------------------|
-| Example: compiler                        | CMakeLists.txt | "project PROJECT called with incorrect number of arguments"                  | Added the project name to line 2                                      |
-| compiler                                 | spie.cpp       | constructor syntax SPIE_Game() {                                             | prefixed constructor                                                  |
-| compiler                                 | main.cpp       | incorrect construction of game                                               | added/removed parentheses                                             |
-| logic                                    | main.cpp       | missing break in switch statement                                            | added break statment, moved some code onto seperate lines for clarity | 
-| compiler                                 | main.cpp       | missing brace in if (score==0){ ...                                          | added closing brace                                                   |
-| compiler                                 | spie.h         | missing std::                                                                | added std:: in front of vecotr, ostream, instream                     |
-| compiler                                 | spie.cpp       | missing return statement in get player choice                                | added return choice                                                   |
-| compiler                                 | main.cpp       | missing {} around switch / case blocks                                       | added {} around switch / case blocks                                  |
-| compiler                                 | main.cpp       | missing ; on return statement at end of file                                 | added ; to return                                                     |
-| runtime                                  | spie.cpp       | index does not adjust when element is erased                                 | we only go forward if element is not erased                           |
-| compiler                                 | main.cpp       | including wrong file type                                                    | changed include spie.cpp to spie.h                                    ||                                          |                |                                                                              |                                                                        |
-| logic                                    | spie.cpp       | while choice != s ... does not evaluate to "while choice is not s, p, i or e | changed to using "choice != && choice!="                               |                                                                       |
-|                                          |                |                                                                              |                                                                        |
+| Type of error (compiler, runtime, logic) | File           | Description                                                                         | Fix                                                                   |
+|------------------------------------------|----------------|-------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
+| Example: compiler                        | CMakeLists.txt | "project PROJECT called with incorrect number of arguments"                         | Added the project name to line 2                                      |
+| compiler                                 | spie.cpp       | constructor syntax SPIE_Game() {                                                    | prefixed constructor                                                  |
+| compiler                                 | main.cpp       | incorrect construction of game                                                      | added/removed parentheses                                             |
+| logic                                    | main.cpp       | missing break in switch statement                                                   | added break statment, moved some code onto seperate lines for clarity | 
+| compiler                                 | main.cpp       | missing brace in if (score==0){ ...                                                 | added closing brace                                                   |
+| compiler                                 | spie.h         | missing std::                                                                       | added std:: in front of vecotr, ostream, instream                     |
+| compiler                                 | spie.cpp       | missing return statement in get player choice                                       | added return choice                                                   |
+| compiler                                 | main.cpp       | missing {} around switch / case blocks                                              | added {} around switch / case blocks                                  |
+| compiler                                 | main.cpp       | missing ; on return statement at end of file                                        | added ; to return                                                     |
+| runtime                                  | spie.cpp       | index does not adjust when element is erased                                        | we only go forward if element is not erased                           |
+| compiler                                 | main.cpp       | including wrong file type                                                           | changed include spie.cpp to spie.h                                    ||                                          |                |                                                                              |                                                                        |
+| logic                                    | spie.cpp       | while choice != s ... does not evaluate to "while choice is not s, p, i or e        | changed to using "choice != && choice!="                              |                                                                       |
+| logic                                    | spie.cpp       | add_winning_numbers never actually adds a number, so it doesnt display when playing | added "winning_numbers.push_back(new_number);"                                                                |
 
 
 

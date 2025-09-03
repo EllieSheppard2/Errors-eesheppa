@@ -22,6 +22,7 @@ bool SPIE_Game::add_winning_number() {
             i = -1;
         }
     }
+    winning_numbers.push_back(new_number);
     return true;
 }
 
