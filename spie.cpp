@@ -88,7 +88,8 @@ void SPIE_Game::scramble(ostream &outs) {
     outs << endl;
 
     int replacements = 0;
-    for (int w = 0; w < winning_numbers.size(); ++w) {
+    int w = 0;
+    while (w < winning_numbers.size()) {
         bool matching = false;
         for (int r = 0; r < dice_rolls.size(); ++r) {
             if (dice_rolls[r] == winning_numbers[w]) {
