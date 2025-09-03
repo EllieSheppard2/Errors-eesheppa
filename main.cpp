@@ -1,4 +1,4 @@
-#include "spie.cpp"
+#include "spie.h"
 using namespace std;
 
 int main() {
