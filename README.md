@@ -32,8 +32,9 @@ Every time you fix a bug, log it in the README file here:
 | compiler                                 | main.cpp       | missing {} around switch / case blocks                                       | added {} around switch / case blocks                                  |
 | compiler                                 | main.cpp       | missing ; on return statement at end of file                                 | added ; to return                                                     |
 | runtime                                  | spie.cpp       | index does not adjust when element is erased                                 | we only go forward if element is not erased                           |
-| compiler                                 | main.cpp       | including wrong file type                                                    | changed include spie.cpp to spie.h                                    |
+| compiler                                 | main.cpp       | including wrong file type                                                    | changed include spie.cpp to spie.h                                    ||                                          |                |                                                                              |                                                                        |
 | logic                                    | spie.cpp       | while choice != s ... does not evaluate to "while choice is not s, p, i or e | changed to using "choice != && choice!="                               |                                                                       |
+|                                          |                |                                                                              |                                                                        |
 
 
 
